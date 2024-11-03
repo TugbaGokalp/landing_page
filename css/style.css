@@ -1,0 +1,123 @@
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 80px;
+}
+
+nav {
+  background-color: #fffbeb;
+}
+
+.navbar-padding {
+  padding: 24px 80px;
+}
+
+nav h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+  color: #78350f;
+  margin-bottom: 0;
+}
+
+.navbar-nav > li {
+  padding: 0 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  --bs-nav-link-color: #78350f !important;
+}
+
+.navbar-custom-button {
+  color: #78350f;
+  border: 2px solid #78350f;
+}
+
+.navbar-custom-button:hover {
+  color: #ffffff;
+  background-color: #78350f;
+  border-color: #ffffff;
+}
+
+.hero-section {
+  background-color: #fffbeb;
+  background-image: url("/assets/Rectangle\ 31.png");
+  /* background-size: cover;  */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+  line-height: 79rem;
+}
+
+.hero-section h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 79.2px;
+  text-align: left;
+}
+
+.hero-section .row:first-child {
+  padding-bottom: 80px;
+}
+
+.btn-div a {
+  color: #78350f;
+}
+
+.btn-div a:first-child {
+  border: 2px solid #78350f;
+  background-color: transparent;
+}
+
+.btn-div a:nth-child(2) {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-div a:nth-child(2):hover {
+  color: #78350f;
+}
+
+.btn-div a:first-child:hover {
+  background-color: #78350f;
+}
+
+.row.text-center.mt-5 .col-md-4 {
+  max-width: 30%;
+}
+
+.icon-container {
+  position: relative;
+  height: 64px;
+}
+
+.icon {
+  height: auto; /* Orantılı boyutlandırma için */
+}
+
+.overlapping {
+  position: absolute; /* Üstteki ikonu konumlandırmak için */
+  top: 0; /* İlk ikonun üstüne gelecek şekilde ayarlayın */
+  left: 28px; /* İkonların yan yana durması için ayarlayın */
+}
+
+.second-icon {
+  bottom: 150px;
+  top: -10px;
+  position: absolute; /* Üstteki ikonu konumlandırmak için */
+  left: 14px;
+}
