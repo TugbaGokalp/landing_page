@@ -81,47 +81,235 @@
 <!-- Best Section -->
 <section class="best-section py-5 text-white">
   <div class="container">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-      <h2>The best of the best</h2>
-      <a href="#" class="btn btn-outline-light">Sign up now</a>
+    <div
+      class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-5"
+    >
+      <h2 class="mb-4 mb-md-0 best-section-header fs-1">
+        The best of the best
+      </h2>
+      <a href="#" class="btn btn-lg btn-outline-light">Sign up now</a>
     </div>
     <div class="row">
       <div class="col-md-4">
         <div class="card bg-dark text-white mb-4">
-          <img src="product1.jpg" class="card-img-top" alt="Product 1" />
-          <div class="card-body">
+          <img src="/assets/shoes_1.png" class="card-img-top" alt="Product 1" />
+          <div class="card-body rounded">
             <h5 class="card-title">Title</h5>
-            <p class="card-text">
+            <p class="card-text mb-4">
               Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
             </p>
-            <a href="#" class="btn btn-outline-light btn-block">Buy Now</a>
+            <a href="#" class="btn btn-outline-light mx-auto w-100">
+              <img
+                src="/assets/shopping-cart.svg"
+                alt="shopping chart"
+                class="me-3"
+              />Buy Now</a
+            >
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card bg-dark text-white mb-4">
-          <img src="product2.jpg" class="card-img-top" alt="Product 2" />
-          <div class="card-body">
+          <img src="/assets/shoes_2.png" class="card-img-top" alt="Product 2" />
+          <div class="card-body rounded">
             <h5 class="card-title">Title</h5>
-            <p class="card-text">
+            <p class="card-text mb-4">
               Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
             </p>
-            <a href="#" class="btn btn-outline-light btn-block">Buy Now</a>
+            <a href="#" class="btn btn-outline-light mx-auto w-100">
+              <img
+                src="/assets/shopping-cart.svg"
+                alt="shopping chart"
+                class="me-3"
+              />Buy Now</a
+            >
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card bg-dark text-white mb-4">
-          <img src="product3.jpg" class="card-img-top" alt="Product 3" />
-          <div class="card-body">
+          <img src="/assets/shoes_3.png" class="card-img-top" alt="Product 3" />
+          <div class="card-body rounded">
             <h5 class="card-title">Title</h5>
-            <p class="card-text">
+            <p class="card-text mb-4">
               Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
             </p>
-            <a href="#" class="btn btn-outline-light btn-block">Buy Now</a>
+            <a href="#" class="btn btn-outline-light mx-auto w-100">
+              <img
+                src="/assets/shopping-cart.svg"
+                alt="shopping chart"
+                class="me-3"
+              />Buy Now</a
+            >
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Video section -->
+<section class="video-section p-sm-4">
+  <div class="container why-join-section rounded">
+    <div class="row justify-content-between">
+      <div class="col-md-6 why-join-content my-auto">
+        <h1 class="mb-4">Why join us</h1>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <img src="/assets/check.svg" /> Est et in pharetra magna adipiscing
+            ornare aliquam.
+          </li>
+          <li class="mb-2">
+            <img src="/assets/check.svg" /> Tellus arcu sed consequat ac velit
+            ut eu blandit.
+          </li>
+          <li class="mb-2">
+            <img src="/assets/check.svg" /> Ullamcorper ornare in et egestas
+            dolor orci.
+          </li>
+        </ul>
+        <div class="d-sm-flex text-center mt-3">
+          <a href="#" class="btn btn-lg btn-outline-primary">Sign up now</a>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+        <div class="video-thumbnail position-relative">
+          <img
+            src="/assets/Desktop.png"
+            alt="Video Thumbnail"
+            class="img-fluid"
+          />
+          <img
+            src="/assets/Deco-video.png"
+            alt="Overlay Image"
+            class="overlay-image"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Because they love us -->
+
+<section class="because-section">
+  <div class="container mt-5">
+    <div class="d-flex justify-content-between mb-4">
+      <h2 class="text-center mb-4">Because they love us</h2>
+
+      <div class="d-flex g-3">
+        <!-- Sol Ok -->
+        <div class="slider-button left cursor-pointer">
+          <img src="/assets/button_slider_left.svg" />
+        </div>
+        <!-- Sağ Ok -->
+        <div class="slider-button right cursor-pointer">
+          <img src="/assets/button_slider_right.svg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Başlangıcı -->
+     <div class="slider-container-wrapper">
+      <div class="slider-background"></div>
+    <div class="slider-container">
+      <div class="card-slider" id="cardSlider">
+        <!-- Kartlar -->
+        <div class="card">
+          <h5 class="card-title mb-5 mt-4">Shells</h5>
+          <p class="card-text mb-4">
+            Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+            enim. Sit purus venenatis velit semper lectus sed ornare quam.
+          </p>
+          <div class="d-flex align-items-center">
+            <img
+              src="/assets/User Thumb.png"
+              class="rounded-circle me-2"
+              alt="User Image"
+            />
+            <div>
+              <strong>Hellena John</strong><br />
+              <small>Co-founder</small>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-title mb-5 mt-4">ArtVenue</h5>
+          <p class="card-text mb-4">
+            A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id
+            ultrices a lacus. Pretium vehicula pretium posuere justo sed.
+          </p>
+          <div class="d-flex align-items-center">
+            <img
+              src="/assets/User Thumb.png"
+              class="rounded-circle me-2"
+              alt="User Image"
+            />
+            <div>
+              <strong>David Oshodi</strong><br />
+              <small>Manager</small>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-title mb-5 mt-4">Wayfare</h5>
+          <p class="card-text mb-4">
+            A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id
+            ultrices a lacus. Pretium vehicula pretium posuere justo sed.
+          </p>
+          <div class="d-flex align-items-center">
+            <img
+              src="/assets/User Thumb.png"
+              class="rounded-circle me-2"
+              alt="User Image"
+            />
+            <div>
+              <strong>Sarah Connor</strong><br />
+              <small>Director</small>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-title mb-5 mt-4">Global Corp</h5>
+          <p class="card-text mb-4">
+            A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id
+            ultrices a lacus. Pretium vehicula pretium posuere justo sed.
+          </p>
+          <div class="d-flex align-items-center">
+            <img
+              src="/assets/User Thumb.png"
+              class="rounded-circle me-2"
+              alt="User Image"
+            />
+            <div>
+              <strong>John Doe</strong><br />
+              <small>CEO</small>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-title mb-5 mt-4">Global Corp</h5>
+          <p class="card-text mb-4">
+            Magna egestas aliquet ut integer non. Sed diam enim nibh sit.
+            Aliquam laoreet aenean metus nibh eu scelerisque.
+          </p>
+          <div class="d-flex align-items-center">
+            <img
+              src="/assets/User Thumb.png"
+              class="rounded-circle me-2"
+              alt="User Image"
+            />
+            <div>
+              <strong>John Doe</strong><br />
+              <small>CEO</small>
+            </div>
+          </div>
+        </div>
+        <!-- Diğer Kartlar Buraya Eklenebilir -->
+      
+    </div>
+    <!-- Slider Sonu -->
+  </div>
+</div>
+</section>
+
